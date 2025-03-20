@@ -1,37 +1,19 @@
 title: D2D Toolbox
 email: bilal.al-saeedi@th-koeln.de
 description: A comprehensive toolbox for IWRM, REM, and NRM at ITT Th-Koeln.
-baseurl: "/D2D-Toolbox" # For project sites, use the repository name
-url: "https://bilal-saeedi.github.io" # Replace with your GitHub username
+url: "https://waterbender231.github.io"  # Base domain (no repo name)
+baseurl: "/my-static-site"              # Repository name as subpath
+
 
 # Theme settings
-theme: remote_theme: just-the-docs/just-the-docs
+
+# Gem-based approach:
+theme: just-the-docs
+
 # Plugins
 plugins:
   - jekyll-feed
 
-# Navigation settings
-nav:
-  - title: Home
-    url: /
-  - title: Public Domain Data
-    url: /public-domain-data/
-  - title: Modules
-    url: /modules/
-    children:
-      - title: IWRM
-        url: /modules/iwrm/
-        children:
-          - title: Watershed
-            url: /modules/iwrm/watershed/
-          - title: Water and Agriculture
-            url: /modules/iwrm/water-and-agriculture/
-      - title: NRM
-        url: /modules/nrm/
-      - title: REM
-        url: /modules/rem/
-  - title: About
-    url: /about/
 
 
 # Exclude from processing
